@@ -1,10 +1,17 @@
 # MazeBank Application
 A banking application built with Java and JavaFX.
 
-## Setup
-1. Ensure you have Java JDK 11+ installed
-2. Install Maven 3.6+
-3. Run using Maven:
+### Prerequisites
+- Java JDK 11+
+- Maven 3.6+
+- JavaFX SDK
+
+### Installation
+```bash
+git clone https://github.com/yourusername/mazebank.git
+cd mazebank
+```
+# Run Application
 ```bash
 mvn clean javafx:run
 ```
@@ -21,6 +28,15 @@ mvn clean package
 - Maven - Build tool
 - FXML - UI layout
 - CSS - Styling
+
+src/
+├── main/
+│   ├── java/         # Source code
+│   └── resources/
+│       ├── Fxml/     # UI layouts
+│       ├── Images/   # Assets
+│       └── Styles/   # CSS files
+
 
 ## Project Modules
 - Main application entry point
