@@ -8,7 +8,7 @@ A banking application built with Java and JavaFX.
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/mazebank.git
+git clone https://github.com/erenulutas0/mazebank.git
 cd mazebank
 ```
 # Run Application
@@ -28,15 +28,6 @@ mvn clean package
 - Maven - Build tool
 - FXML - UI layout
 - CSS - Styling
-
-src/
-├── main/
-│   ├── java/         # Source code
-│   └── resources/
-│       ├── Fxml/     # UI layouts
-│       ├── Images/   # Assets
-│       └── Styles/   # CSS files
-
 
 ## Project Modules
 - Main application entry point
